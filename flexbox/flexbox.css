@@ -1,0 +1,86 @@
+/* Background Styles start */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  background-color: gold;
+  border: 3px dashed black;
+  padding: 20px;
+}
+
+div {
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+  font-size: 20px;
+}
+
+
+
+.wrapper {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.a1, .a2, .a3, .a4 {
+    display: flex;
+    width: 100%;
+
+
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.b1, .b2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  
+}
+
+.c1 {
+  
+}
+
+
+@media (min-width: 400) {
+
+}
+
+@media (min-width: 600) {
+   .four{
+    display: flex;
+    flex-direction: column;
+   }
+   .two{
+    display: flex;
+    flex-direction: column;
+   }
+  .wrapper{
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+  }
+}
+

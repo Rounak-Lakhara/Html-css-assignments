@@ -1,0 +1,159 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: repeating-radial-gradient(orangered,white,green,orangered,white,green,orangered,white,green,orangered,white,green);
+            background-repeat:repeat;
+            background-size: 40%;
+
+            font-family: Arial, sans-serif;
+            scale: 0.9;
+        }
+
+        .container {
+            width: 90%;
+            height: 650px;
+            margin: 30px auto;
+            background-color: white;
+            filter: contrast(90%);
+            background-image: url(/India\ Cricket\ Team\ Victory\ Celebration.png);
+            background-size: cover;
+            border-radius: 5px;
+            box-shadow: blue 0px 0px 30px;
+        }
+        svg{
+            position: relative;
+            top: 5px;
+            left: -2px;
+            filter: drop-shadow(0px 0px 5px black);
+        }
+        .icc{
+             text-shadow: 5px 5px 5px black;
+        }
+        .icc:hover{
+            background-image: linear-gradient(orangered,white,green);
+            color: blue;
+        }
+
+     
+        .top {
+            text-align: left;
+            padding: 30px;
+        }
+
+        .logo {
+            text-align: right;
+            font-size: 40px;
+            font-weight: bold;
+            filter: drop-shadow(160px 750px 2px black);
+            color: #f05136;
+        }
+
+        .top h1 {
+            margin: 15px 0 8px;
+            font-size: 30px;
+        }
+
+        .top p {
+            color: #555;
+            font-size: 18px;
+        }
+
+     
+        .scorecard {
+            width: 70%;
+            border-collapse: collapse;
+            margin-left: 30px;
+            background-color: white;
+        }
+        tbody td:nth-child(2n){
+            color: rgb(141, 134, 134);
+        }
+
+        .head {
+            background-color: #f05136;
+            color: white;
+        }
+        .head:hover{
+            background-image: linear-gradient(orangered,white,green);
+            color: blue;
+            text-shadow: none;
+            border: none;
+        }
+        div:hover table:hover {
+            border: orangered 2px solid;
+            box-shadow: 2px 2px 40px black;
+        }
+
+        .head th {
+            padding: 10px 10px;
+            border:2px solid #F05136;
+        }
+
+        .india {
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .score {
+            text-align: right;
+        }
+        .head2 {
+            background-color: #fafafa;
+        }
+
+        .head2 th {
+            padding: 12px 10px;
+            text-align: right;
+        }
+
+        .head2 .batsman {
+            text-align: left;
+        }
+        .body td {
+            padding: 12px 10px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .body td:first-child {
+            text-align: left;
+        }
+
+        .body td:nth-child(2) {
+            text-align: left;
+        }
+        .player{
+            color: #3c8aef;
+        }
+        
+        .foot td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .foot td:nth-child(3n){
+            margin-right: 10px;
+        }
+
+        .foot td:first-child {
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .container {
+                width: 95%;
+                overflow: auto;
+            }
+
+            .scorecard {
+                min-width: 700px;
+            }
+
+            .top h1 {
+                font-size: 22px;
+            }
+        }

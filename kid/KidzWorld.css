@@ -1,0 +1,108 @@
+*{
+            margin: 0;
+        }
+        .KidsWorld{
+            /* padding-left:80px ; */
+            display: flex;
+            justify-content: space-between;
+            padding-left: 6%;
+            padding-right: 6%;
+            align-items: center;
+        }
+        .MainDialogue{
+            background-image: url(Assets/kw-background.png);
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+            height: 60vh;
+            width: 100%; 
+            color: white;
+            display: flex;
+            flex-direction: column;
+            font-size: 26px;
+            /* padding-left: 80px; */
+            padding-top: 80px;
+            margin-bottom: 130px;
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+        .MainDialogue>h1{
+            padding-left: 80px;
+        }
+        .MainDialogue>p{
+            font-size: 20px;
+            padding-top: 15px;
+            padding-left: 80px;
+        }
+        .ContainerForProducts{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 80px;
+            padding-right: 80px;
+            flex-wrap: wrap;
+            gap: 1%;
+            margin-bottom: 120px;
+        }
+        .ContainerForProducts2{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 80px;
+            padding-right: 80px;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            margin-bottom: 120px;
+        }
+        .products{
+            border-radius: 12px;
+            align-content: space-around;
+            margin-bottom: 40px;
+        }
+        .products2{
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+        .name{
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 10px;
+            /* border: 2px black solid; */
+        }
+        .description{
+            color: gray;
+            padding-left: 10px;
+        }
+        .price-button{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding: 10px;
+        }
+        .header{
+            display: flex;
+            gap: 10px;
+            width: 160px;
+        }
+        .titles{
+            padding-left: 80px;
+            margin-bottom: 20px;
+            font-size: 25px;
+            font-weight:600;
+        }
+        .button{
+            background-color: #6196FF;
+            border-radius: 5px;
+            padding:5px 10px;
+            font-size: 15px;
+            color: white;
+        }
+        .cart{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+        }
+        .price{
+            font-weight: bolder;
+            font-size: larger;
+
+            
+        }
